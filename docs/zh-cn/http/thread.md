@@ -44,12 +44,9 @@
 | ------------------ |---------|--------------------------------------|
 | id                 | string  | 帖子 id                                |
 | status               | string  | 帖子状态, `1`代表审核中，`2`代表审核通过, `3`代表编辑审核中 |
-| is_updated        | boolean | 是否被编辑                                |
 | title        | string  | 标题                                   |
 | cover            | string  | 封面url                                |
 | category              | string  | 分区id                                 |
-| content_deleted              | bool    | 主楼是否被删除                             |
-| content_deleted_type              | integer | 被删除类型                                 |
 
 
 
@@ -517,7 +514,8 @@
 | 参数名             | 类型    | 说明                                                                   |
 | ------------------ |-------|----------------------------------------------------------------------|
 | create_time             | int   | 创建时间                                                                 |
-| user              | map     | 创建帖子用户数据参考[用户 User](https://developer.kookapp.cn/doc/objects#用户User) |
+| replies              | array | 这条回复的下的楼中楼，最多返回两条，其余需再次分页查询                                          |
+| user              | map   | 创建帖子用户数据参考[用户 User](https://developer.kookapp.cn/doc/objects#用户User) |
 其余返回值字段参考 [Post评论/回复详情参数说明](#Post评论回复详情参数说明)
 
 ### 返回示例
