@@ -60,7 +60,7 @@
 | reply_id            | string  | 回复对象的id（回复主贴为0）                      |
 | belong_to_post_id               | string  | 所属的评论的post_id                        |
 | content        | string  | 卡片消息                                 |
-| status             | string  | 回复状态, `1`代表审核中，`2`代表审核通过, `3`代表编辑审核中 |
+| status             | int     | 回复状态, `1`代表审核中，`2`代表审核通过, `3`代表编辑审核中 |
 | mention           | array   | `@特定用户` 的用户 ID 数组                                 |
 | mention_all           | boolean | 是否含有 `@全体人员`                         |
 | mention_here           | boolean | 是否含有 `@在线人员`                         |
@@ -96,15 +96,15 @@
       {
         "id":"6",
         "name":"test",
-        "allow":"0",
-        "deny":"0",
+        "allow":0,
+        "deny":0,
         "roles":[]
       },
       {
         "id":"7",
         "name":"test",
-        "allow":"0",
-        "deny":"2048",
+        "allow":0,
+        "deny":2048,
         "roles":[
           {
             "type":"user",
@@ -123,8 +123,8 @@
       {
         "id":"8",
         "name":"test2",
-        "allow":"0",
-        "deny":"0",
+        "allow":0,
+        "deny":0,
         "roles":[]
       }
     ]
