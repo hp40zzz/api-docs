@@ -172,12 +172,12 @@
     "id": "111111",
     "status": 2,
     "title": "apitest",
-    "cover": "https://img.kookapp.cn/assets/xxxxx.png",
+    "cover": "https://xxx.com/xxxxx.png",
     "post_id": "xxxxxx",
     "medias": [
       {
         "type": 2,
-        "src": "https://img.kookapp.cn/assets/xxxxx.png",
+        "src": "https://xxx.com/xxxxx.png",
         "title": ""
       }
     ],
@@ -186,9 +186,9 @@
       "id": "xxxxx",
       "identify_num": "xxxx",
       "username": "test",
-      "avatar": "https://img.chuanyuapp.com/assets/111111",
+      "avatar": "https://xxx.com/xxxxx.png",
       "is_vip": false,
-      "vip_avatar": "https://img.chuanyuapp.com/assets/111111",
+      "vip_avatar": "https://xxx.com/xxxxx.png",
       "nickname": "",
       "roles": [
         10219
@@ -281,7 +281,7 @@
 | create_time             | int   | 创建时间                                                                 |
 | is_updated | bool  | 是否被编辑过                                                           |
 | content_deleted          | bool  | 内容是否被删除                                                                 |
-| content_deleted_type              | int   | 删除类型 |
+| content_deleted_type              | int   | 删除类型：1作者自己删除 2管理员删除 3审核删除 |
 | collect_num              | int   | 收藏数量                     |
 | post_count              | int | 回复总数                                                                 |
 其余返回值字段参考 [Thread帖子详情参数说明](#Thread帖子详情参数说明)以及（主楼数据）[Post评论/回复详情参数说明](#Post评论回复详情参数说明)
@@ -295,12 +295,12 @@
     "id": "xxxxxxxx",
     "status": 2,
     "title": "apitest",
-    "cover": "https://img.kookapp.cn/assets/xxxxxxxx",
+    "cover": "https://xxx.com/xxxxx.png",
     "post_id": "78329392526262528",
     "medias": [
       {
         "type": 2,
-        "src": "https://img.kookapp.cn/assets/xxxxxx.png",
+        "src": "https://xxx.com/xxxxx.png",
         "title": ""
       }
     ],
@@ -309,9 +309,9 @@
       "id": "xxxx",
       "identify_num": "xxx",
       "username": "test",
-      "avatar": "https://img.chuanyuapp.com/assets/xxxx",
+      "avatar": "https://xxx.com/xxxxx.png",
       "is_vip": false,
-      "vip_avatar": "https://img.chuanyuapp.com/assets/xxxxx",
+      "vip_avatar": "https://xxx.com/xxxxx.png",
       "nickname": "",
       "roles": []
     },
@@ -374,12 +374,12 @@
         "id": "111111",
         "status": 2,
         "title": "apitest",
-        "cover": "https://img.kookapp.cn/assets/xxxxxx.png",
+        "cover": "https://xxx.com/xxxxx.png",
         "post_id": "xxxxxx",
         "medias": [
           {
             "type": 2,
-            "src": "https://img.kookapp.cn/assets/xxxxxx.png",
+            "src": "https://xxx.com/xxxxx.png",
             "title": ""
           }
         ],
@@ -528,9 +528,9 @@
           "id": "111111",
           "identify_num": "1111",
           "username": "xxxxxxx",
-          "avatar": "https://img.chuanyuapp.com/avatars/",
+          "avatar": "https://xxxxx.com/avatars/",
           "is_vip": true,
-          "vip_avatar": "https://img.chuanyuapp.com/avatars/",
+          "vip_avatar": "https://xxxxx.com/avatars/",
           "nickname": "xxx",
           "roles": []
         },
