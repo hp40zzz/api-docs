@@ -169,23 +169,23 @@
   "code": 0,
   "message": "操作成功",
   "data": {
-    "id": "78329392509485312",
+    "id": "111111",
     "status": 2,
     "title": "apitest",
-    "cover": "https://img.kookapp.cn/assets/2025-06/11/ZKCTY2ZfGM1470oy.png",
-    "post_id": "78329392526262528",
+    "cover": "https://img.kookapp.cn/assets/xxxxx.png",
+    "post_id": "xxxxxx",
     "medias": [
       {
         "type": 2,
-        "src": "https://img.kookapp.cn/assets/2025-06/11/ZKCTY2ZfGM1470oy.png",
+        "src": "https://img.kookapp.cn/assets/xxxxx.png",
         "title": ""
       }
     ],
     "preview_content": "机器人新闻播报：今日要闻 @全体成员  test@",
     "user": {
-      "id": "757461764",
-      "identify_num": "6365",
-      "username": "tes",
+      "id": "xxxxx",
+      "identify_num": "xxxx",
+      "username": "test",
       "avatar": "https://img.chuanyuapp.com/assets/111111",
       "is_vip": false,
       "vip_avatar": "https://img.chuanyuapp.com/assets/111111",
@@ -195,8 +195,8 @@
       ]
     },
     "category": {
-      "id": "373",
-      "name": "10",
+      "id": "xxx",
+      "name": "xxx",
       "allow": 0,
       "deny": 0
     },
@@ -241,14 +241,14 @@
   "code": 0,
   "message": "操作成功",
   "data": {
-    "id": "78329856550502656",
+    "id": "xxxxxx",
     "reply_id": "0",
-    "thread_id": "78329392509485312",
+    "thread_id": "xxxxx",
     "is_updated": false,
     "mention": [],
     "mention_all": false,
     "mention_here": false,
-    "content": "[{\"theme\":\"invisible\",\"color\":\"\",\"size\":\"lg\",\"expand\":false,\"modules\":[{\"type\":\"section\",\"mode\":\"left\",\"accessory\":null,\"text\":{\"type\":\"kmarkdown\",\"content\":\"123\",\"elements\":[]},\"elements\":[]}],\"type\":\"card\"}]",
+    "content": "",
     "mention_part": [],
     "mention_role_part": [],
     "channel_part": [],
@@ -292,39 +292,37 @@
   "code": 0,
   "message": "操作成功",
   "data": {
-    "id": "78329392509485312",
+    "id": "xxxxxxxx",
     "status": 2,
     "title": "apitest",
-    "cover": "https://img.kookapp.cn/assets/2025-06/11/ZKCTY2ZfGM1470oy.png",
+    "cover": "https://img.kookapp.cn/assets/xxxxxxxx",
     "post_id": "78329392526262528",
     "medias": [
       {
         "type": 2,
-        "src": "https://img.kookapp.cn/assets/2025-06/11/ZKCTY2ZfGM1470oy.png",
+        "src": "https://img.kookapp.cn/assets/xxxxxx.png",
         "title": ""
       }
     ],
     "preview_content": "机器人新闻播报：今日要闻 @全体成员  test@",
     "user": {
-      "id": "757461764",
-      "identify_num": "6365",
-      "username": "tes",
-      "avatar": "https://img.chuanyuapp.com/assets/bot.png?x-oss-process=style/icon",
+      "id": "xxxx",
+      "identify_num": "xxx",
+      "username": "test",
+      "avatar": "https://img.chuanyuapp.com/assets/xxxx",
       "is_vip": false,
-      "vip_avatar": "https://img.chuanyuapp.com/assets/bot.png?x-oss-process=style/icon",
+      "vip_avatar": "https://img.chuanyuapp.com/assets/xxxxx",
       "nickname": "",
-      "roles": [
-        10219
-      ]
+      "roles": []
     },
     "category": {
-      "id": "373",
+      "id": "1",
       "name": "10",
       "allow": 0,
       "deny": 0
     },
     "tags": [],
-    "content": "[{\"theme\":\"secondary\",\"color\":\"\",\"size\":\"lg\",\"expand\":false,\"modules\":[{\"type\":\"header\",\"text\":{\"type\":\"plain-text\",\"emoji\":true,\"content\":\"机器人新闻播报：今日要闻 \",\"elements\":[]},\"elements\":[]},{\"type\":\"section\",\"mode\":\"left\",\"accessory\":null,\"text\":{\"type\":\"kmarkdown\",\"content\":\" (met)all(met)  test@\",\"elements\":[]},\"elements\":[]},{\"type\":\"container\",\"elements\":[{\"type\":\"image\",\"src\":\"https:\/\/img.kookapp.cn\/assets\/2025-06\/11\/ZKCTY2ZfGM1470oy.png\",\"alt\":\"\",\"size\":\"lg\",\"circle\":false,\"title\":\"\",\"fallbackUrl\":\"\",\"elements\":[]}]}],\"type\":\"card\"}]",
+    "content": "",
     "mention": [],
     "mention_all": true,
     "mention_here": false,
@@ -332,8 +330,8 @@
     "mention_role_part": [],
     "channel_part": [],
     "item_part": [],
-    "latest_active_time": 1750755432000,
-    "create_time": 1750755156000,
+    "latest_active_time": 11111111111,
+    "create_time": 111111111111,
     "is_updated": false,
     "content_deleted": false,
     "content_deleted_type": 0,
@@ -349,7 +347,7 @@
 
 | 地址                    | 请求方式 | 说明 |
 |-----------------------|------| ---- |
-| `/api/v3/thread/list` | POST |      |
+| `/api/v3/thread/list` | GET  |      |
 
 ### 参数列表
 
@@ -373,40 +371,29 @@
   "data": {
     "items": [
       {
-        "id": "77448244501676288",
+        "id": "111111",
         "status": 2,
         "title": "apitest",
-        "cover": "https://img.kookapp.cn/assets/2025-06/11/ZKCTY2ZfGM1470oy.png",
-        "post_id": "77448244518453504",
+        "cover": "https://img.kookapp.cn/assets/xxxxxx.png",
+        "post_id": "xxxxxx",
         "medias": [
           {
             "type": 2,
-            "src": "https://img.kookapp.cn/assets/2025-06/11/ZKCTY2ZfGM1470oy.png",
+            "src": "https://img.kookapp.cn/assets/xxxxxx.png",
             "title": ""
           }
         ],
         "preview_content": "机器人新闻播报：今日要闻test@",
-        "user": {
-          "id": "757461764",
-          "identify_num": "6365",
-          "username": "tes",
-          "avatar": "https://img.chuanyuapp.com/assets/bot.png?x-oss-process=style/icon",
-          "is_vip": false,
-          "vip_avatar": "https://img.chuanyuapp.com/assets/bot.png?x-oss-process=style/icon",
-          "nickname": "",
-          "roles": [
-            10219
-          ]
-        },
+        "user": {},
         "category": {
-          "id": "373",
-          "name": "10",
+          "id": "",
+          "name": "",
           "allow": 0,
           "deny": 0
         },
         "tags": [],
-        "latest_active_time": 1750229951000,
-        "create_time": 1750229951000,
+        "latest_active_time": 11111111111,
+        "create_time": 11111111111,
         "is_updated": false,
         "content_deleted": false,
         "content_deleted_type": 0,
@@ -414,40 +401,29 @@
         "post_count": 0
       },
       {
-        "id": "77448122933969152",
+        "id": "0000",
         "status": 2,
-        "title": "111",
+        "title": "0000",
         "cover": "",
-        "post_id": "77448122950746368",
+        "post_id": "0",
         "medias": [],
         "preview_content": "111",
-        "user": {
-          "id": "2140124471",
-          "identify_num": "390",
-          "username": "Takagi",
-          "avatar": "https://img.chuanyuapp.com/avatars/k/1.png?x-oss-process=style/icon",
-          "is_vip": false,
-          "vip_avatar": "https://img.chuanyuapp.com/avatars/k/1.png?x-oss-process=style/icon",
-          "nickname": "",
-          "roles": [
-            7786
-          ]
-        },
+        "user": {},
         "category": {
-          "id": "79",
+          "id": "xxxx",
           "name": "分区1",
           "allow": 0,
           "deny": 2048
         },
         "tags": [
           {
-            "id": 425,
-            "name": "1234",
+            "id": 111,
+            "name": "xxx",
             "icon": ""
           }
         ],
-        "latest_active_time": 1750229878000,
-        "create_time": 1750229878000,
+        "latest_active_time": 1111111111111,
+        "create_time": 1111111111111,
         "is_updated": false,
         "content_deleted": false,
         "content_deleted_type": 0,
@@ -496,17 +472,18 @@
 
 | 地址                    | 请求方式 | 说明 |
 |-----------------------|------| ---- |
-| `/api/v3/thread/post` | POST |      |
+| `/api/v3/thread/post` | GET  |      |
 
 ### 参数列表
 
 | 参数名          | 位置    | 类型     | 必需    | 说明                    |
 | ------------- |-------|--------|-------|-----------------------|
+| channel_id	   | query  | string | true  | 频道id                  |
 | post_id	   | query  | string | false | 某一楼评论的post_id，查看楼中楼需要 |
 | thread_id	    | query | string | true  | 帖子id	                 |
 | time	    | query | string | false | 回复的create_time用于分页    |
 | page_size		    | query | string | false | 一页几个	                 |
-| order	    | query | string | true   | ’asc‘升序 'desc'降序      |
+| order	    | query | string | true  | ’asc‘升序 'desc'降序      |
 | page	    | query | string | true  | 页码	                   |
 
 
@@ -533,159 +510,107 @@
     },
     "items": [
       {
-        "id": "5676",
+        "id": "xxxx",
         "reply_id": "0",
-        "thread_id": "1578",
+        "thread_id": "xxxxx",
         "is_updated": false,
         "mention": [],
         "mention_all": false,
         "mention_here": false,
-        "content": "[{\"theme\":\"invisible\",\"color\":\"\",\"size\":\"lg\",\"expand\":false,\"modules\":[{\"type\":\"section\",\"mode\":\"left\",\"accessory\":null,\"text\":{\"type\":\"kmarkdown\",\"content\":\"你这是从哪搞的这么多正经文案\",\"elements\":[]},\"elements\":[]}],\"type\":\"card\"}]",
+        "content": "",
         "mention_part": [],
         "mention_role_part": [],
         "channel_part": [],
         "item_part": [],
         "belong_to_post_id": "0",
-        "create_time": 1729761436000,
+        "create_time": 1111111111,
         "user": {
-          "id": "3918448496",
-          "identify_num": "6678",
-          "username": "13301a",
-          "avatar": "https://img.chuanyuapp.com/avatars/2024-08/14/5Ajms7ioBw06j06j.png?x-oss-process=style/icon",
+          "id": "111111",
+          "identify_num": "1111",
+          "username": "xxxxxxx",
+          "avatar": "https://img.chuanyuapp.com/avatars/",
           "is_vip": true,
-          "vip_avatar": "https://img.chuanyuapp.com/avatars/2024-08/14/5Ajms7ioBw06j06j.png?x-oss-process=style/icon",
-          "nickname": "13301a",
+          "vip_avatar": "https://img.chuanyuapp.com/avatars/",
+          "nickname": "xxx",
           "roles": []
         },
         "replies": [
           {
-            "id": "5683",
-            "reply_id": "5676",
-            "thread_id": "1578",
+            "id": "1111111111",
+            "reply_id": "xxxx",
+            "thread_id": "xxxxx",
             "is_updated": false,
             "mention": [],
             "mention_all": false,
             "mention_here": false,
-            "content": "[{\"theme\":\"invisible\",\"color\":\"\",\"size\":\"lg\",\"expand\":false,\"modules\":[{\"type\":\"section\",\"mode\":\"left\",\"accessory\":null,\"text\":{\"type\":\"kmarkdown\",\"content\":\"nb\",\"elements\":[]},\"elements\":[]}],\"type\":\"card\"}]",
+            "content": "",
             "mention_part": [],
             "mention_role_part": [],
             "channel_part": [],
             "item_part": [],
-            "belong_to_post_id": "5676",
-            "create_time": 1729762050000,
-            "user": {
-              "id": "2418239356",
-              "identify_num": "2634",
-              "username": "TTTZZZ",
-              "avatar": "https://img.chuanyuapp.com/avatars/2021-11/zdAFyjjHow06j06j.png?x-oss-process=style/icon",
-              "is_vip": true,
-              "vip_avatar": "https://img.chuanyuapp.com/avatars/2021-11/zdAFyjjHow06j06j.png?x-oss-process=style/icon",
-              "nickname": "ttzz",
-              "roles": [
-                8959,
-                7786,
-                4480
-              ]
-            }
+            "belong_to_post_id": "11111",
+            "create_time": 11111111,
+            "user": {}
           },
           {
-            "id": "5688",
-            "reply_id": "5683",
-            "thread_id": "1578",
+            "id": "",
+            "reply_id": "",
+            "thread_id": "",
             "is_updated": false,
             "mention": [],
             "mention_all": false,
             "mention_here": false,
-            "content": "[{\"theme\":\"invisible\",\"color\":\"\",\"size\":\"lg\",\"expand\":false,\"modules\":[{\"type\":\"section\",\"mode\":\"left\",\"accessory\":null,\"text\":{\"type\":\"kmarkdown\",\"content\":\"xasd\",\"elements\":[]},\"elements\":[]}],\"type\":\"card\"}]",
+            "content": "",
             "mention_part": [],
             "mention_role_part": [],
             "channel_part": [],
             "item_part": [],
-            "belong_to_post_id": "5676",
-            "create_time": 1729762363000,
-            "user": {
-              "id": "2418239356",
-              "identify_num": "2634",
-              "username": "TTTZZZ",
-              "avatar": "https://img.chuanyuapp.com/avatars/2021-11/zdAFyjjHow06j06j.png?x-oss-process=style/icon",
-              "is_vip": true,
-              "vip_avatar": "https://img.chuanyuapp.com/avatars/2021-11/zdAFyjjHow06j06j.png?x-oss-process=style/icon",
-              "nickname": "ttzz",
-              "roles": [
-                8959,
-                7786,
-                4480
-              ]
-            }
+            "belong_to_post_id": "",
+            "create_time": 1111111111,
+            "user": {}
           }
         ]
       },
       {
-        "id": "5690",
-        "reply_id": "0",
-        "thread_id": "1578",
+        "id": "",
+        "reply_id": "",
+        "thread_id": "",
         "is_updated": false,
         "mention": [],
         "mention_all": false,
         "mention_here": false,
-        "content": "[{\"theme\":\"invisible\",\"color\":\"\",\"size\":\"lg\",\"expand\":false,\"modules\":[{\"type\":\"section\",\"mode\":\"left\",\"accessory\":null,\"text\":{\"type\":\"kmarkdown\",\"content\":\"asds1233\",\"elements\":[]},\"elements\":[]}],\"type\":\"card\"}]",
+        "content": "",
         "mention_part": [],
         "mention_role_part": [],
         "channel_part": [],
         "item_part": [],
         "belong_to_post_id": "0",
-        "create_time": 1729762373000,
-        "user": {
-          "id": "2418239356",
-          "identify_num": "2634",
-          "username": "TTTZZZ",
-          "avatar": "https://img.chuanyuapp.com/avatars/2021-11/zdAFyjjHow06j06j.png?x-oss-process=style/icon",
-          "is_vip": true,
-          "vip_avatar": "https://img.chuanyuapp.com/avatars/2021-11/zdAFyjjHow06j06j.png?x-oss-process=style/icon",
-          "nickname": "ttzz",
-          "roles": [
-            8959,
-            7786,
-            4480
-          ]
-        },
+        "create_time": 111111111,
+        "user": {},
         "replies": []
       },
       {
-        "id": "78323338585309440",
-        "reply_id": "0",
-        "thread_id": "1578",
+        "id": "",
+        "reply_id": "",
+        "thread_id": "",
         "is_updated": false,
         "mention": [],
         "mention_all": false,
         "mention_here": false,
-        "content": "[{\"theme\":\"invisible\",\"color\":\"\",\"size\":\"lg\",\"expand\":false,\"modules\":[{\"type\":\"section\",\"mode\":\"left\",\"accessory\":null,\"text\":{\"type\":\"kmarkdown\",\"content\":\"3\",\"elements\":[]},\"elements\":[]}],\"type\":\"card\"}]",
+        "content": "",
         "mention_part": [],
         "mention_role_part": [],
         "channel_part": [],
         "item_part": [],
         "belong_to_post_id": "0",
-        "create_time": 1750751547000,
-        "user": {
-          "id": "2140124471",
-          "identify_num": "390",
-          "username": "Takagi",
-          "avatar": "https://img.chuanyuapp.com/avatars/k/1.png?x-oss-process=style/icon",
-          "is_vip": false,
-          "vip_avatar": "https://img.chuanyuapp.com/avatars/k/1.png?x-oss-process=style/icon",
-          "nickname": "",
-          "roles": [
-            7786
-          ]
-        },
+        "create_time": 111111111,
+        "user": {},
         "replies": []
       }
     ]
   }
 }
 ```
-
-
 
 
 
