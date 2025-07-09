@@ -40,13 +40,13 @@
 
  帖子属于某个分区，若无则默认综合分区，帖子相当于一个区域，所有评论/回复（包括主楼）都属于该帖子。
 
-| 参数名             | 类型      | 说明                                   |
-| ------------------ |---------|--------------------------------------|
-| id                 | string  | 帖子 id                                |
-| status               | string  | 帖子状态, `1`代表审核中，`2`代表审核通过, `3`代表编辑审核中 |
-| title        | string  | 标题                                   |
-| cover            | string  | 封面url                                |
-| category              | string  | 分区id                                 |
+| 参数名             | 类型     | 说明                                   |
+| ------------------ |--------|--------------------------------------|
+| id                 | string | 帖子 id                                |
+| status               | int    | 帖子状态, `1`代表审核中，`2`代表审核通过, `3`代表编辑审核中 |
+| title        | string | 标题                                   |
+| cover            | string | 封面url                                |
+| category              | string | 分区id                                 |
 
 
 
@@ -483,7 +483,7 @@
 | thread_id	    | query | string | true  | 帖子id	                 |
 | time	    | query | string | false | 回复的create_time用于分页    |
 | page_size		    | query | string | false | 一页几个	                 |
-| order	    | query | string | true  | ’asc‘升序 'desc'降序      |
+| order	    | query | string | true  | 'asc'升序 'desc'降序      |
 | page	    | query | string | true  | 页码	                   |
 
 
